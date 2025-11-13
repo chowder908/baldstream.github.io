@@ -1,9 +1,9 @@
 
 <html> 
 <head>
-<link rel="stylesheet" type="text/css" href="style.css">
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
 <style>
+<link rel="stylesheet" type="text/css" href="style.css">
 body {
     background-image: url('../skeleton-dance-skeleton.gif');
     background-repeat: repeat;
