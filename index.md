@@ -1,28 +1,30 @@
-
 <html> 
 <head>
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
-<style>
-<link rel="stylesheet" type="text/css" href="style.css">
-body {
-    background-image: url('../skeleton-dance-skeleton.gif');
-    background-repeat: repeat;
-    background-color: #f0f0f0;
-}
-</style>
-  <div class="middle">
-    <div id="twitch-embed">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+    <style>
+        body {
+            background-image: url('../skeleton-dance-skeleton.gif');
+            background-repeat: repeat;
+            background-color: #f0f0f0;
+        }
+        #twitch-embed {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="twitch-embed"></div>
     <script src="https://embed.twitch.tv/embed/v1.js"></script>
     <script type="text/javascript">
-      new Twitch.Embed("twitch-embed", {        
-        width: 1280,
-        height: 720,
-        channel: "vargskelethor",
-        parent: ["hahaha.bald.stream"]
-      });
+        new Twitch.Embed("twitch-embed", {        
+            width: 1260,
+            height: 660,
+            channel: "vargskelethor",
+            parent: ["hahaha.bald.stream"]
+        });
     </script>
-</div>
-</div>
-</head>
+</body>
 </html>
-
