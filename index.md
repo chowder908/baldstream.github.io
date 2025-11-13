@@ -14,7 +14,7 @@ body {
 <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://player.twitch.tv/?channel=vargskelethor&autoplay=false&parent=hahaha.bald.stream&parent=bald.stream&parent=iframe.ly&parent=cdn.iframe.ly&parent=iframely.net&parent=iframely.com&parent=if-cdn.com" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media *;"></iframe>
 </div>
 </head>
-<div style="right: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"> 
+<div> 
 <iframe src="https://www.twitch.tv/embed/vargskelethor/chat?parent=hahaha.bald.stream&parent=bald.stream&parent=iframe.ly&parent=cdn.iframe.ly&parent=iframely.net&parent=iframely.com&parent=if-cdn.com" width="100%" height="100%"></iframe>
     </div>
 </html>
