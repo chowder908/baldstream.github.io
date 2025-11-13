@@ -10,7 +10,6 @@
         body {
             background-image: url('../skeleton-dance-skeleton.gif');
             background-repeat: repeat;
-            background-color: #f0f0f0;
         }
         #twitch-embed {
             display: flex;
@@ -18,18 +17,21 @@
             justify-content: center;
         }
         iframe {
-            width: 100%;
-            height: 100%;
+            width: calc(100% - 400px);
+            height: calc(100% - 200px);
+            border: 3px solid #666;
+            box-sizing: border-box;
+            min-width: 600px;
+            min-height: 400px;
         }
+    
     </style>
 </head>
 <body>
     <div id="twitch-embed"></div>
     <script src="https://embed.twitch.tv/embed/v1.js"></script>
     <script type="text/javascript">
-        new Twitch.Embed("twitch-embed", {
-            width: 1260,
-            height: 660,
+        new Twitch.Embed("twitch-embed", {        
             channel: "vargskelethor",
             parent: ["hahaha.bald.stream"]
         });
