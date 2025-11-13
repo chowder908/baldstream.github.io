@@ -4,7 +4,7 @@
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
 <style>
 body {
-    background-image: url('https://raw.githubusercontent.com/chowder908/baldstream.github.io/refs/heads/main/skeleton-dance-skeleton.gif');
+    background-image: url('../skeleton-dance-skeleton.gif');
     background-repeat: repeat;
     background-color: #f0f0f0;
 }
