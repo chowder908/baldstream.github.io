@@ -4,9 +4,8 @@
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
 <style>
 body {
-    background-image: url('images/tile.png'); /* Replace with your image path */
+    background-image: url('https://raw.githubusercontent.com/chowder908/baldstream.github.io/refs/heads/main/skeleton-dance-skeleton.gif');
     background-repeat: repeat;
-    /* Optional: Add other background properties like background-color, background-position, etc. */
     background-color: #f0f0f0;
 }
 </style>
