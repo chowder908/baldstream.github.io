@@ -1,6 +1,7 @@
 
 <html> 
 <head>
+<link rel="stylesheet" type="text/css" href="style.css">
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
 <style>
 body {
@@ -9,6 +10,9 @@ body {
     background-color: #f0f0f0;
 }
 </style>
+<div class="outer">
+  <div class="middle">
+    <div class="inner">
     <div id="twitch-embed">
     <script src="https://embed.twitch.tv/embed/v1.js"></script>
     <script type="text/javascript">
@@ -21,4 +25,7 @@ body {
     </script>
 </head>
 </html>
+</div>
+    </div>
+  </div>
 </div>
