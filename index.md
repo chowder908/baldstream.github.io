@@ -21,8 +21,8 @@ body {
         parent: ["hahaha.bald.stream"]
       });
     </script>
+</div>
+</div>
 </head>
-</div>
-</div>
 </html>
 
