@@ -14,7 +14,7 @@ body {
     <script type="text/javascript">
       new Twitch.Embed("twitch-embed", {
         width: 1080,
-        height: 960,
+        height: 660,
         channel: "vargskelethor",
         parent: ["hahaha.bald.stream"]
       });
