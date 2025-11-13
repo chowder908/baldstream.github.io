@@ -9,7 +9,7 @@ body {
     background-color: #f0f0f0;
 }
 </style>
-    <div id="twitch-embed" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media *;"> </div>
+    <div style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media *;" id="twitch-embed" > </div>
     <script src="https://embed.twitch.tv/embed/v1.js"></script>
     <script type="text/javascript">
       new Twitch.Embed("twitch-embed", {
