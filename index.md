@@ -23,7 +23,8 @@
             box-sizing: border-box;
             min-width: 600px;
             min-height: 400px;
-        }    
+        }
+    
     </style>
 </head>
 <body>
