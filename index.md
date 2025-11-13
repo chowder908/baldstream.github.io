@@ -16,9 +16,9 @@ body {
 </head>
 <div> 
 <iframe id="twitch-chat-embed"
-        src="https://www.twitch.tv/embed/vargskelethor/chat&parent=hahaha.bald.stream"
+        src="https://www.twitch.tv/embed/vargskelethor/chat&parent=hahaha.bald.stream&parent=bald.stream&parent=iframe.ly&parent=cdn.iframe.ly&parent=iframely.net&parent=iframely.com&parent=if-cdn.com"
         height="500"
-        width="300">
+        width="800">
 </iframe>
 </div>
 </html>
