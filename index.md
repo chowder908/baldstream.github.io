@@ -15,7 +15,7 @@ body {
 </div>
 </head>
 <div style="right: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"> 
-<iframe src="https://www.twitch.tv/popout/vargskelethor/chat?parent=hahaha.bald.stream&parent=bald.stream&parent=iframe.ly&parent=cdn.iframe.ly&parent=iframely.net&parent=iframely.com&parent=if-cdn.com" frameborder="0" width="100%" height="100%"></iframe>
+<iframe src="https://www.twitch.tv/embed/vargskelethor/chat?parent=hahaha.bald.stream&parent=bald.stream&parent=iframe.ly&parent=cdn.iframe.ly&parent=iframely.net&parent=iframely.com&parent=if-cdn.com" frameborder="0" width="100%" height="100%"></iframe>
     </div>
 </html>
 
