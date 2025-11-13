@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bald.Stream — vargskelethor (iframe)</title>
+  <style>
+    :root{--bg:#071021;--muted:#9aa4b2}
+    html,body{height:100%;margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:linear-gradient(180deg,#071021,#0f1724);color:#eef2f7}
+    .wrap{max-width:1200px;margin:28px auto;padding:18px}
+    .layout{display:grid;grid-template-columns:1fr 360px;gap:14px;align-items:start}
+    .panel{background:#000;border-radius:8px;overflow:hidden;height:calc(100vh - 160px);min-height:320px}
+    iframe{width:100%;height:100%;border:0;display:block}
+    header{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+    .note{color:var(--muted);font-size:0.9rem}
+    @media (max-width:900px){.layout{grid-template-columns:1fr}.panel{height:360px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1 style="margin:0;font-size:1.05rem">Bald.Stream — vargskelethor</h1>
+      <div class="note">Player (left) · Chat (right)</div>
+    </header>
+
+    <main class="layout" role="main" aria-label="Twitch player and chat">
+      <div class="panel" aria-label="Twitch player">
+        <!-- Twitch player iframe using channel "vargskelethor" and parent "bald.stream" -->
+        <iframe
+          id="twitch-player"
+          title="Twitch player for vargskelethor"
+          src="https://player.twitch.tv/?channel=vargskelethor&parent=bald.stream&autoplay=false&muted=false"
+          allow="autoplay; fullscreen; clipboard-write; encrypted-media; picture-in-picture"
+          sandbox="allow-same-origin allow-scripts allow-popups allow-forms allow-popups-to-escape-sandbox">
+        </iframe>
+      </div>
+
+      <div class="panel" aria-label="Twitch chat">
+        <!-- Twitch chat iframe (embed) -->
+        <iframe
+          id="twitch-chat"
+          title="Twitch chat for vargskelethor"
+          src="https://www.twitch.tv/embed/vargskelethor/chat?parent=bald.stream&darkpopout=true"
+          allow="clipboard-write"
+          sandbox="allow-same-origin allow-scripts allow-forms">
+        </iframe>
+      </div>
+    </main>
+
+    <p class="note" style="margin-top:12px">
+      Note: The "parent" parameter must match the exact host serving this page (bald.stream). Serve this file from that hostname for the embeds to work.
+    </p>
+  </div>
+</body>
+</html>
