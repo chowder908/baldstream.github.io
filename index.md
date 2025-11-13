@@ -20,7 +20,6 @@ body {
         height="500"
         width="350">
 </iframe>
-
-    </div>
+</div>
 </html>
 
