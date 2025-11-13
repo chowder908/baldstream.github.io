@@ -8,11 +8,15 @@ body {
     background-repeat: repeat;
     background-color: #f0f0f0;
 }
+.my-div 
+    {
+        display: block; margin: auto;
+    }
 </style>
-<center> <div id="twitch-embed">
+    <div id="twitch-embed" display: block; margin: auto; >
     <script src="https://embed.twitch.tv/embed/v1.js"></script>
     <script type="text/javascript">
-      new Twitch.Embed("twitch-embed", {
+      new Twitch.Embed("twitch-embed", {        
         width: 1260,
         height: 660,
         channel: "vargskelethor",
@@ -21,4 +25,4 @@ body {
     </script>
 </head>
 </html>
-</div></center>
+</div>
