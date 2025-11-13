@@ -11,7 +11,7 @@ body {
     background-color: #f0f0f0;
 }
 </style>
-<midi-player src="../Bad-To-The-Bone.mid"></midi-player>
+<midi-player src="Bad-To-The-Bone.mid"></midi-player>
 <button onclick="document.querySelector('midi-player').play()">Play</button>
 <button onclick="document.querySelector('midi-player').pause()">Pause</button>
 <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://player.twitch.tv/?channel=vargskelethor&autoplay=false&parent=hahaha.bald.stream&parent=bald.stream&parent=iframe.ly&parent=cdn.iframe.ly&parent=iframely.net&parent=iframely.com&parent=if-cdn.com" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media *;"></iframe>
