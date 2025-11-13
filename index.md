@@ -12,7 +12,7 @@
             align-items: center;
             justify-content: center;
             height: 100%;
-            width: 150%;
+            width: 50%;
         }
     </style>
 </head>
@@ -23,6 +23,8 @@
         new Twitch.Embed("twitch-embed", {        
             channel: "vargskelethor",
             parent: ["hahaha.bald.stream"]
+            width: 1280,
+            height: 720,
         });
     </script>
 </body>
