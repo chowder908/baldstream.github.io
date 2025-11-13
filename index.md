@@ -8,12 +8,8 @@ body {
     background-repeat: repeat;
     background-color: #f0f0f0;
 }
-.my-div 
-    {
-        display: block; margin: auto;
-    }
 </style>
-    <div id="twitch-embed" display: block; margin: auto; >
+    <div style= display: block; margin: auto; id="twitch-embed">
     <script src="https://embed.twitch.tv/embed/v1.js"></script>
     <script type="text/javascript">
       new Twitch.Embed("twitch-embed", {        
