@@ -27,7 +27,9 @@
     <div id="twitch-embed"></div>
     <script src="https://embed.twitch.tv/embed/v1.js"></script>
     <script type="text/javascript">
-        new Twitch.Embed("twitch-embed", {        
+        new Twitch.Embed("twitch-embed", {
+            width: 1260,
+            height: 660,
             channel: "vargskelethor",
             parent: ["hahaha.bald.stream"]
         });
