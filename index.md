@@ -18,8 +18,8 @@
             justify-content: center;
         }
         iframe {
-            width: 75%;
-            height: 75%;
+            width: 100%;
+            height: 100%;
         }
     </style>
 </head>
