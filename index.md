@@ -17,6 +17,10 @@
             align-items: center;
             justify-content: center;
         }
+        iframe {
+            width: 75%;
+            height: 75%;
+        }
     </style>
 </head>
 <body>
@@ -24,8 +28,6 @@
     <script src="https://embed.twitch.tv/embed/v1.js"></script>
     <script type="text/javascript">
         new Twitch.Embed("twitch-embed", {        
-            width: 1260,
-            height: 660,
             channel: "vargskelethor",
             parent: ["hahaha.bald.stream"]
         });
