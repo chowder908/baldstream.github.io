@@ -13,8 +13,14 @@
         body {
             background-image: url('../skeleton-dance-skeleton.gif');
             background-repeat: repeat;
-            cursor: url("../cursor.png"), 16 16, default;
+            cursor: url("../cursor.png"), auto;
         }
+            button {
+        cursor: url("../cursor.png"), pointer;
+    }
+    .pointer {
+        cursor: url("../cursor.png") 16 16, default; 
+    }
         .stream {
             display: flex;
             align-items: center;
