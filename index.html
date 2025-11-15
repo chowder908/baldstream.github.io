@@ -32,24 +32,20 @@
     </style>
 </head>
 <body>
-    <div class="stream" data-channel="vargskelethor"></div>
+    <!-- Add a placeholder for the Twitch embed -->
+    <div id="twitch-embed"></div>
+
+    <!-- Load the Twitch embed JavaScript file -->
     <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
     <script type="text/javascript">
-        const streams = document.querySelectorAll(".stream");
-        for (const stream of streams) {
-            new Twitch.Embed(stream, {channel: stream.getAttribute("data-channel")});
-        }
-        let n = 0;
-        function lol() {
-            for (const stream of streams) {
-                const show = stream == streams[n];
-                stream.style.visibility = show ? "visible" : "collapse";
-            }
-            n++;
-            if (n >= streams.length) {
-                n = 0;
-            }
-        }
+      new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "vargskelethor",
+        parent: ["hahaha.bald.stream"]
+      });
     </script>
     </body>
 </html>
